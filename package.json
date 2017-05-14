@@ -8,7 +8,8 @@
     "description": "Rapid application prototype of the t10n core logic",
     "scripts": {
         "dev": "tsc -p ./dev.tsconfig.json",
-        "start": "nodemon build/server.js",
+        "start": "build/server.js",
+        "start-dev": "nodemon build/server.js",
         "start-cli": "node build",
         "build": "tsc -p .",
         "build-docs": "./node_modules/.bin/typedoc --out docs --mode file --theme minimal"
