@@ -37,4 +37,4 @@ app.get('/api/get_newcomer_stories', async (req, res) => {
     }
 })
 
-app.listen(10600)
+app.listen(process.env.PORT || 10600)
