@@ -1,0 +1,18 @@
+{
+    "include": [
+        "src"
+    ],
+    "files": [
+        "global.d.ts"
+    ],
+    "compilerOptions": {
+        "strict": true,
+        "outDir": "build",
+        "target": "es2017",
+        "module": "commonjs",
+        "suppressImplicitAnyIndexErrors": true,
+        "experimentalDecorators": true,
+        "pretty": true,
+        "sourceMap": true
+    }
+}
