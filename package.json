@@ -13,7 +13,7 @@
         "start-cli": "node build",
         "build": "tsc -p .",
         "build-docs": "./node_modules/.bin/typedoc --out docs --mode file --theme minimal",
-        "heroku-postbuild": "yarn build"
+        "postbuild": "yarn build"
     },
     "dependencies": {
         "async": "^2.4.0",
